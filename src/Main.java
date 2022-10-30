@@ -74,4 +74,19 @@ else{
         else{
             System.out.println("Если ребенку "+age3+", то он не может кататься на аттракционе");}
 
-}}
+
+int one=1;
+int two=2;
+int free=3;
+if (one>two || one>free){
+    System.out.println(one+" больше, чем " +two+" и "+free);}
+else{
+    System.out.println(one+" не больше, чем " +two+" и "+free);}
+if (two>one || two>free){
+    System.out.println(two+" больше, чем " +one+", но меньше, чем "+free);}
+else{
+    System.out.println(two+" не больше, чем " +one+" и "+free);}
+if (free>one || free>two){
+    System.out.println(free+" больше,чем "+one+" и "+two);}
+else{
+    System.out.println(free+" не больше, чем " +one+" и "+two);}}}
