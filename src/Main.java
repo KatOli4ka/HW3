@@ -15,15 +15,18 @@ else{
         if (kidAge>=7)  {
             System.out.println("Ребенок уже ходит в школу");
 
-        }
-        int man=19;
+        }else {
+            System.out.println("Ребенок еще не может ходить в школу");}
+       int man=19;
         if (man>=18)        {
-            System.out.println("Мужчина закончил школу и может отправляться в университет");
-        }
+            System.out.println("Человек закончил школу и может отправляться в университет");
+        }else {
+            System.out.println("Человек еще не закончил школу и не может отправляться в университет");}
         int manAge=26;
         if (manAge>=24)       {
             System.out.println("Мужчина окончил университет и ему пора искать первую работу");
-        }
+        }else {
+            System.out.println("Мужчина еще не окончил университет и не может искать первую работу");}
         int totalCapacity=102;
         int seat=60;
         int standing=totalCapacity-seat;
