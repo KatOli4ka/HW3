@@ -39,4 +39,54 @@ if(seat>=60){
     System.out.println("В вагоне нет свободных сидячих мест");}
 else{
     System.out.println("В вагоне есть свободные сидячие места");}
-}}
+
+
+int age13=13;
+if (age13>=2 && age13<=6){
+    System.out.println("Если возраст человека равен "+age13+", то ему нужно ходить в детский сад");}
+else{
+    System.out.println("Если возраст человека равен "+age13+", то он не может уже ходить в детский сад");}
+if (age13>=7 && age13<=18){
+    System.out.println("Если возраст человека равен "+age13+", то ему нужно ходить в школу");}
+else{
+    System.out.println("Если возраст человека равен "+age13+", то он не может ходить в школу");}
+if (age13>18 && age13<24){
+    System.out.println("Если возраст человека равен "+age13+", то ему нужно ходить в университет");}
+else{
+        System.out.println("Если возраст человека равен "+age13+", то он не может ходить в университет");}
+if (age13>=24){
+    System.out.println("Если возраст человека равен "+age13+", то ему нужно ходить на работу");}
+else{
+    System.out.println("Если возраст человека равен "+age13+", то он не может ходить на работу");}
+
+
+        int age3=13;
+        if (age3<5){
+            System.out.println("Если ребенку "+age3+", то он не может кататься на аттракционе");}
+        else{
+            System.out.println("Если ребенку "+age3+", то он может кататься на аттракционе");}
+        if (age3>=5 && age3<14){
+            System.out.println("Если ребенку "+age3+", то он может кататься только в сопровождении взрослого. Если взрослого нет, то кататься нельзя");}
+        else{
+            System.out.println("Если ребенку "+age3+", то он не может кататься на аттракционе");}
+        if (age3>=14){
+            System.out.println("Если ребенку "+age3+", то он может кататься без сопровождения взрослого");}
+        else{
+            System.out.println("Если ребенку "+age3+", то он не может кататься на аттракционе");}
+
+
+int one=1;
+int two=2;
+int free=3;
+if (one>two || one>free){
+    System.out.println(one+" больше, чем " +two+" и "+free);}
+else{
+    System.out.println(one+" не больше, чем " +two+" и "+free);}
+if (two>one || two>free){
+    System.out.println(two+" больше, чем " +one+", но меньше, чем "+free);}
+else{
+    System.out.println(two+" не больше, чем " +one+" и "+free);}
+if (free>one || free>two){
+    System.out.println(free+" больше,чем "+one+" и "+two);}
+else{
+    System.out.println(free+" не больше, чем " +one+" и "+two);}}}
