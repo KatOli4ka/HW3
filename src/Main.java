@@ -19,6 +19,11 @@ public class Main {
         if (man>=18)        {
             System.out.println("Мужчина закончил школу и может отправляться в университет");
         }
+        int manAge=26;
+        if (manAge>=24)       {
+            System.out.println("Мужчина окончил университет и ему пора искать первую работу");
+        }
+
 
 
 
