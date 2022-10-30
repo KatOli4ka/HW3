@@ -8,9 +8,9 @@ else{
             System.out.println("Вы не достигли совершеннолетия");}
         int age1=13;
         if (age1<18){
-            System.out.println("Вы еще не достигли совершеннолетия. Подождите еще немного");
-
-    }
+            System.out.println("Вы еще не достигли совершеннолетия. Подождите еще немного");}
+   else{
+            System.out.println("Вы уже совершеннолетний");}
         int kidAge=8;
         if (kidAge>=7)  {
             System.out.println("Ребенок уже ходит в школу");
