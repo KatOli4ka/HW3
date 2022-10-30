@@ -33,6 +33,10 @@ else{
         if (totalCapacity>=102){
                     System.out.println("Вагон полностью забит");        }
 
-
-                }
-}
+else{
+    System.out.println("В вагоне есть свободные места");}
+if(seat>=60){
+    System.out.println("В вагоне нет свободных сидячих мест");}
+else{
+    System.out.println("В вагоне есть свободные сидячие места");}
+}}
