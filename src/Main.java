@@ -4,7 +4,8 @@ public class Main {
         int age = 33;
         if (age>=18){
         System.out.println("Поздравляем с совершеннолетием!");    }
-
+else{
+            System.out.println("Вы не достигли совершеннолетия");}
         int age1=13;
         if (age1<18){
             System.out.println("Вы еще не достигли совершеннолетия. Подождите еще немного");
@@ -30,6 +31,5 @@ public class Main {
                     System.out.println("Вагон полностью забит");        }
 
 
-
-    }
+                }
 }
