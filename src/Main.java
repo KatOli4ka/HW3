@@ -23,11 +23,13 @@ public class Main {
         if (manAge>=24)       {
             System.out.println("Мужчина окончил университет и ему пора искать первую работу");
         }
+        int totalCapacity=102;
+        int seat=60;
+        int standing=totalCapacity-seat;
+        if (totalCapacity>=102){
+                    System.out.println("Вагон полностью забит");        }
 
 
 
-
-
-
-        }
+    }
 }
