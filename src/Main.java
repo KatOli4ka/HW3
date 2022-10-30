@@ -10,6 +10,18 @@ public class Main {
             System.out.println("Вы еще не достигли совершеннолетия. Подождите еще немного");
 
     }
+        int kidAge=8;
+        if (kidAge>=7)  {
+            System.out.println("Ребенок уже ходит в школу");
+
+        }
+        int man=19;
+        if (man>=18)        {
+            System.out.println("Мужчина закончил школу и может отправляться в университет");
+        }
+
+
+
 
 
         }
